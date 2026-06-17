@@ -1,0 +1,52 @@
+name: 🎨 UI/UX 反馈
+description: 反馈界面、交互或文案体验问题
+labels: [ux, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你的体验反馈！请尽量附上截图和具体页面位置。
+
+  - type: input
+    id: page
+    attributes:
+      label: 页面或功能位置
+      description: 问题出现在哪个页面或功能模块？
+      placeholder: 例如：设置页 / 导出弹窗
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 描述你看到的界面或交互问题
+      placeholder: 例如：弹窗按钮在移动端被遮挡
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 改进建议
+      description: 你有什么更好的方案吗？
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图
+      description: 请附上截图（不要包含敏感信息）
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认事项
+      options:
+        - label: 我已经搜索过现有 Issue，确认没有重复反馈
+          required: true
+        - label: 我没有在 Issue 中提交任何敏感信息
+          required: true

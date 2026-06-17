@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🛡️ 报告安全漏洞
+    about: 请不要公开提交安全相关问题，请通过邮件私下报告。
+    url: mailto:security@caiai.example.com
+  - name: 🌐 CaiAI 官网
+    about: 访问产品官网获取更多信息。
+    url: https://caiai.example.com

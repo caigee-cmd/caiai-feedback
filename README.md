@@ -1,0 +1,55 @@
+# CaiAI Feedback
+
+> **这不是 CaiAI 的源代码仓库。** 本项目不开源。这个仓库的唯一用途是公开收集用户反馈、问题报告和功能建议。
+
+## 这个仓库能做什么？
+
+CaiAI 目前不是开源软件。我们创建这个仓库是为了让使用者有一个公开、透明的地方来：
+
+- 报告使用过程中遇到的 bug
+- 提出新功能或改进建议
+- 反馈界面、交互和体验问题
+- 查看已有问题的处理状态
+
+## 你可以提交什么？
+
+| 类型 | 说明 |
+|------|------|
+| 🐛 Bug | 功能异常、崩溃、数据错误等 |
+| ✨ Feature | 希望新增的功能或能力 |
+| 🎨 UI/UX | 界面、交互、文案体验反馈 |
+| ❓ Question | 使用过程中遇到的疑问 |
+| 🛡️ Security | 安全漏洞（请优先通过私下渠道报告） |
+
+## 提交前请注意
+
+1. 先搜索 [Issues](../../issues) 列表，避免重复提交。
+2. 一个 Issue 只描述一个问题，方便追踪和关闭。
+3. Bug 反馈请尽量提供复现步骤、截图、浏览器/操作系统环境。
+4. 不要在本仓库提交个人隐私信息、账号密码、API Key、支付信息等敏感内容。
+
+## 隐私与安全
+
+- 公开的 Issue 对所有人可见，请勿发布任何敏感信息。
+- 如发现安全漏洞，请不要直接发公开 Issue，请优先发送邮件至 **security@caiai.example.com**（请替换为真实邮箱）。
+
+## 相关链接
+
+- 🌐 CaiAI 官网：[https://caiai.example.com](https://caiai.example.com)（请替换为真实地址）
+- 📧 客服支持：[support@caiai.example.com](mailto:support@caiai.example.com)（请替换为真实邮箱）
+- 🛡️ 安全报告：[security@caiai.example.com](mailto:security@caiai.example.com)（请替换为真实邮箱）
+
+## Issue 标签说明
+
+- `bug`：确认或待确认的缺陷
+- `feature`：功能建议
+- `ux`：界面/交互反馈
+- `question`：使用疑问
+- `needs-triage`：待分类
+- `confirmed`：已确认的问题
+- `in-progress`：正在处理中
+- `resolved`：已解决
+
+---
+
+**再次说明：本仓库不托管任何源代码，也不接受 Pull Request。** 感谢你的反馈，它会让我们做得更好。

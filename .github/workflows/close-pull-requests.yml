@@ -1,0 +1,20 @@
+name: Close Pull Requests
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close PR with explanatory comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          gh pr close "$PR_NUMBER" --comment "Hi! Thanks for taking the time to open a pull request.\\n\\nThis repository is **issue-only** and does not host any source code. CaiAI is not open source, so we do not accept pull requests here.\\n\\nIf you want to report a bug, suggest a feature, or give feedback, please open an [Issue](../../issues) instead. We'd love to hear from you there!"
